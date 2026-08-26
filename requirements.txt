@@ -1,0 +1,38 @@
+# --- Core data / science ---
+numpy
+pandas
+scipy
+scikit-learn
+
+# --- Visualization ---
+matplotlib
+seaborn
+plotly
+
+# --- Baseline models ---
+xgboost
+lightgbm
+
+# --- Deep learning (sequence models) ---
+torch
+torchmetrics
+
+# --- Explainability & uncertainty ---
+shap
+
+# --- Experiment tracking ---
+mlflow
+
+# --- Productization (Phase 8, install when you get there) ---
+fastapi
+uvicorn
+streamlit
+pydantic
+
+# --- Notebooks ---
+jupyter
+ipykernel
+
+# --- Utilities ---
+tqdm
+pyyaml

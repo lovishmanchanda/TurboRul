@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data — large NASA files, don't commit them; note where to get them in
+# README instead
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data (engineered features, e.g. train_final/test_final CSVs) —
+# small, DO commit these for reproducibility without rerunning notebooks
+data/external/*
+!data/external/.gitkeep
+models/*
+!models/.gitkeep
+
+# MLflow
+mlruns/
+
+# OS / IDE
+.DS_Store
+.vscode/settings.json
